@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blood Force Donation Team Matigarh - Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #c62828;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #b71c1c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #aaa;
+    }
+    .login-btn {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blood Force Donation Team Matigarh</h1>
+    <p>Dashboard & Data Management System</p>
+  </header>
+
+  <nav>
+    <a href="#">Admin Profile</a>
+    <a href="#">Donor Profile</a>
+    <a href="#">Hospital Profile</a>
+    <a href="#">Data Collection</a>
+    <a href="#">Donation Profile</a>
+    <a href="#">Media Gallery</a>
+    <a href="#" class="login-btn">Login</a>
+    <a href="#" class="login-btn">Logout</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Admin Profile</h2>
+      <p>Admin can manage donor data, hospital profiles, and blood donation events.</p>
+    </div>
+
+    <div class="section">
+      <h2>Donor Profile</h2>
+      <p>Details of donors, including blood group, location, and donation history.</p>
+    </div>
+
+    <div class="section">
+      <h2>Hospital Profile</h2>
+      <p>Registered hospitals with contact details and blood request status.</p>
+    </div>
+
+    <div class="section">
+      <h2>Data Collection</h2>
+      <p>Collect and view blood donation camp records, requests, and responses.</p>
+    </div>
+
+    <div class="section">
+      <h2>Donation Profile</h2>
+      <p>Track individual donation records and upcoming donor schedules.</p>
+    </div>
+
+    <div class="section">
+      <h2>Photo & Video Collection</h2>
+      <p>Upload and manage event photos, videos, and awareness content.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
